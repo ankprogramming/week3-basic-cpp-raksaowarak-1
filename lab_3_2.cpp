@@ -26,7 +26,52 @@ int main() {
    cout << "Min of char : " << numeric_limits<char>::min() << endl;
    cout << "Max of char : " << numeric_limits<char>::max() << endl;
 
+   cout << "Min of short int : " << numeric_limits<signed char>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<signed char>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<unsigned char>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<unsigned char>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<signed int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<signed int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<unsigned int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<unsigned int>::max() << endl;
+
    cout << "Min of short int : " << numeric_limits<short int>::min() << endl;
    cout << "Max of short int : " << numeric_limits<short int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<signed short int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<signed short int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<unsigned short int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<unsigned short int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<long int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<long int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<signed long int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<signed long int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<unsigned long int>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<unsigned long int>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<float>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<float>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<double>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<double>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<long double>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<long double>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<wchar_t>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<wchar_t>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<bool>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<bool>::max() << endl;
   return 0;
 }
